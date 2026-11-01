@@ -1,0 +1,11 @@
+# Never commit real financial records or generated reports
+data/*.xlsx
+!data/financial_template.xlsx
+!data/sample_transactions.xlsx
+reports/*
+!reports/.gitkeep
+
+__pycache__/
+*.py[cod]
+.venv/
+.env
